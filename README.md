@@ -114,7 +114,7 @@
 > Consequently, it makes sense that ARC would be better suited for
 > caching data than LRU in different scenarios.
 
-> ![](ARC.jpg){width="3.9375in"}  > Fig. 1. ARC Performance       
+> ![](ARC.jpg)  > Fig. 1. ARC Performance       
 
-> ![](LRU.jpg){width="3.9583333333333335in"} > Fig. 2. LRU Performance  
+> ![](LRU.jpg) > Fig. 2. LRU Performance  
 
