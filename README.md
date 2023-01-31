@@ -80,13 +80,13 @@
 >
 > **Testing Methodology.**
 >
-> Arc_test.go file consists of:\
+> Arc_test.go file consists of:
 > 1) **Blackbox testing** of the cache interface. Unit and stress tests
 > of cache methods. I am also testing the qualities of ARC that
 > constitute its core advantages in comparison to FIFO and LRU, such as
 > scan-resistance.
 >
-> **2) Simulation.** I use Pareto distribution to simulate the cache
+> 2) **Simulation.** I use Pareto distribution to simulate the cache
 > functionality in an environment similar to the real world. (More about
 > Pareto in the Outcomes section)
 >
