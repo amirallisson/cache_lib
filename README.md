@@ -57,30 +57,10 @@
 > associated with the given key, if it exists. Otherwise returns false.
 > The operation does not add metadata about the removed block into any
 > of the bottom caches.
-
-+-----------------------------------+-----------------------------------+
-| > 4.\                             | > Len() returns int - returns the |
-| > 5.\                             | > numbers of bindings in the      |
-| > 6.                              | > cache.                          |
-|                                   | >                                 |
-|                                   | > MaxStorage() returns int -      |
-|                                   | > returns the maximum number of   |
-|                                   | > bindings the cache can store    |
-|                                   | > RemainingStorage() returns      |
-|                                   | > int - returns the number of     |
-|                                   | > free slots in the cache.        |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
-
-+-----------------------------------+-----------------------------------+
-| 7\.                               | > Stats() returns Stats - returns |
-|                                   | > statistics with the number of   |
-|                                   | > hits and misses over the        |
-|                                   | > cache's                         |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
-
-> lifetime.
+4. Len() returns int - returns the numbers of bindings in the cache.
+5. MaxStorage() returns int - returns the maximum number of bindings the cache can store
+6. RemainingStorage() returns int - returns the number of free slots in the cache.7. Stats() returns Stats - returns statistics with the number of hits and misses over the cache’s
+lifetime.
 >
 > It is important to note that the API of my implementation of ARC is
 > different from what was in the assignment. The ARC was proposed to
