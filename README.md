@@ -1,5 +1,4 @@
 > **Amir Mokhammed-Ali**\
-> **COS 316**
 >
 > **Project Description.**
 >
